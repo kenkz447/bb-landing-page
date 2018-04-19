@@ -3,3 +3,14 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/grid";
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    overflow-x: hidden;
+}

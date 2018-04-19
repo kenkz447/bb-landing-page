@@ -1,0 +1,15 @@
+.home-livingroom {
+    &-banner {
+        margin-bottom: 30px;
+        &-right, &-left {
+            height: 100%;
+        }
+    }
+    &-product {
+        margin-bottom: 40px;
+    }
+    &-layout {
+        padding: 30px 0;
+        background: grey;
+    }
+}

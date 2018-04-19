@@ -5,7 +5,7 @@ import { Router, Switch, Route } from 'react-router'
 
 import { createBrowserHistory } from 'history'
 
-import { Home } from './pages'
+import { PageHome } from './pages'
 
 const browserHistory = createBrowserHistory()
 
@@ -14,7 +14,7 @@ export function App(props) {
         <div className="app">
             <Router history={browserHistory} >
                 <Switch>
-                    <Route path="/" component={Home}/>
+                    <Route path="/" component={PageHome}/>
                 </Switch>
             </Router>
         </div>

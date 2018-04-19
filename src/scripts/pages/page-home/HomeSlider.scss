@@ -1,0 +1,30 @@
+.home-slider {
+    margin-bottom: 30px;
+    .slick {
+        &-dots {
+            bottom: 20px;
+            li {
+                button::before {
+                    font-size: 20px;
+                }
+            }
+        }
+        &-prev,
+        &-next {
+            z-index: 1;
+        }
+        &-prev {
+            left: 25px;
+        }
+        &-next {
+            right: 25px;
+        }
+    }
+    .container {
+        height: 0;
+    }
+    &-details {
+        position: relative;
+        top: 100px;
+    }
+}
