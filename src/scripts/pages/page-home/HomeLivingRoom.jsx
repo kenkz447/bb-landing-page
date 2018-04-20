@@ -13,7 +13,7 @@ export class HomeLivingRoom extends React.Component {
         { image: '/images/livingroom/armchair.jpg', icon: "/images/livingroom/icon-armchair.png", name: 'Armchair' },
         { image: '/images/livingroom/side-table.jpg', icon: "/images/livingroom/icon-side-table.png", name: 'Side table' },
         { image: '/images/livingroom/coffee-table.jpg', icon: "/images/livingroom/icon-coffee-table.png", name: 'Coffee table' },
-        { image: '/images/livingroom/coffee-table.jpg', icon: "/images/livingroom/icon-coffee-table.png", name: 'Coffee table' },
+        { image: '/images/livingroom/tv-cabinet.jpg', icon: "/images/livingroom/icon-tv-cabinet.png", name: 'TV cabinet' },
     ]
     gifts = [
         { image: '/images/livingroom/gift-01.jpg', name: 'gift-01' },
@@ -21,6 +21,8 @@ export class HomeLivingRoom extends React.Component {
         { image: '/images/livingroom/gift-03.jpg',  name: 'gift-03' },
         { image: '/images/livingroom/gift-04.jpg', name: 'gift-04' },
         { image: '/images/livingroom/gift-05.jpg', name: 'gift-05' },
+        { image: '/images/livingroom/gift-06.jpg', name: 'gift-06' },
+        { image: '/images/livingroom/gift-07.jpg', name: 'gift-07' },
     ]
     render() {
         return (
@@ -29,7 +31,7 @@ export class HomeLivingRoom extends React.Component {
                     <div className="row">
                         <div className="col-lg-8">
                             <ImageWrapper className="home-livingroom-banner-left">
-                                <Image className="w-100 h-100" src="/images/livingroom/banner-left.jpg" />
+                                <Image baseOn="width" src="/images/livingroom/banner-left.jpg" />
                                 <div className="home-livingroom-banner-left-info">
                                     <label className="home-livingroom-banner-left-info-label">BỘ SƯU TẬP</label>
                                     <h1 className="home-livingroom-banner-left-info-collectionname">BB<br />2018</h1>
@@ -39,7 +41,7 @@ export class HomeLivingRoom extends React.Component {
                             </ImageWrapper>
                         </div>
                         <div className="col-lg-4">
-                            <ImageWrapper className="home-livingroom-banner-right">
+                            <ImageWrapper ratioX={1} ratioY={1} className="home-livingroom-banner-right">
                                 <Image baseOn="height" src="/images/livingroom/banner-right.jpg" />
                                 <div className="home-livingroom-banner-right-info">
                                     <label className="home-livingroom-banner-right-info-label">THE STRIKE ARMCHAIR</label>

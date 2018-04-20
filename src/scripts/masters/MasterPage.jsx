@@ -21,7 +21,7 @@ function MasterHeader(props) {
                                     <Link className="master-page-header-nav-menu-item-link" to="/">Trang chủ</Link>
                                 </li>
                                 <li className="master-page-header-nav-menu-item">
-                                    <Link className="master-page-header-nav-menu-item-link" to="/">Liên hệ</Link>
+                                    <Link className="master-page-header-nav-menu-item-link" to="/vi_VN/page/contactus">Liên hệ</Link>
                                 </li>
                             </ul>
                         </div>

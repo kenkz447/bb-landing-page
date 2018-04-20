@@ -1,4 +1,4 @@
-.home-livingroom {
+.home-dinnerroom {
     &-banner {
         margin-bottom: 60px;
         &-right,
@@ -41,10 +41,9 @@
         &-right {
             position: relative;
             &-info {
-                top: 75%;
-                left: 50%;
-                transform: translateY(-75%) translateX(-50%);
-                width: 100%;
+                top: 15%;
+                left: 15%;
+                transform: translateY(-15%) translateX(-15%);
                 position: absolute;
                 text-align: center;
                 &-label {
@@ -72,15 +71,59 @@
             text-align: center;
         }
     }
-    
-    .home-room-layout-image img {
-        max-width: 500px;
-        max-height: 500px;
+    &-gifts {
+        margin-bottom: 40px;
+        &-left,
+        &-right {
+            position: relative;
+            text-align: center;
+            &-info {
+                position: absolute;
+                &-label {
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    display: block;
+                    line-height: 1;
+                }
+                &-name {
+                    font-size: 60px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    display: block;
+                    line-height: 1.2;
+                }
+            }
+        }
+        &-left {
+            margin-bottom: 15px;
+            &-info {
+                top: 20px;
+                right: 20px;
+            }
+        }
+        &-right {
+            &-info {
+                background: rgba(0, 0, 0, .5);
+                padding: 5px;
+                bottom: 40px;
+                right: 60px;
+                &-label {
+                    color: #fff;
+                }
+                &-name {
+                    line-height: .8;
+                    color: #fff;
+                }
+                &-sub {
+                    color: #fff;
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 768px) {
-    .home-livingroom {
+    .home-dinnerroom {
         &-banner {
             &-left {
                 &-info {
@@ -102,7 +145,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .home-livingroom {
+    .home-dinnerroom {
         &-banner {
             margin-bottom: 60px;
             &-right,
@@ -183,6 +226,46 @@
                 margin-left: 5px;
                 margin-bottom: 20px;
                 text-align: left;
+            }
+        }
+        &-gifts {
+            &-left,
+            &-right {
+                &-info {
+                    &-label {
+                        font-size: 25px;
+                        line-height: 1;
+                    }
+                    &-name {
+                        font-size: 60px;
+                        line-height: 1.2;
+                    }
+                }
+            }
+            &-left {
+                margin-bottom: 0;
+                &-info {
+                    top: 50px;
+                    right: 50px;
+                }
+            }
+            &-right {
+                &-info {
+                    background: transparent;
+                    padding: 0;
+                    bottom: 40px;
+                    right: 60px;
+                    &-label {
+                        color: #000;
+                    }
+                    &-name {
+                        line-height: .8;
+                        color: #000;
+                    }
+                    &-sub {
+                        color: #000;
+                    }
+                }
             }
         }
     }

@@ -7,7 +7,7 @@ import { Image, ImageWrapper } from '../../controls'
 
 const sliderSetting = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -22,7 +22,11 @@ const sliderSetting = {
 
 export function HomeSlider(props) {
     return (
-        <Slider className="home-slider" {...sliderSetting}>
+        <Slider
+            className="home-slider"
+            afterChange={props.afterChange}
+            {...sliderSetting}
+        >
             <ImageWrapper className="home-slider-slide">
                 <div className="container">
                     <div className="home-slider-slide-details">

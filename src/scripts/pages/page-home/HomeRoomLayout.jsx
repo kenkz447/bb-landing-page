@@ -19,7 +19,7 @@ export function HomeRoomLayout(props) {
                         <ul className="home-room-layout-products">
                             {products.map((product, index) => {
                                 return (
-                                    <li className="home-room-layout-products-product">
+                                    <li key={index} className="home-room-layout-products-product">
                                         <div className="home-room-layout-products-product-index">
                                             {index + 1}
                                         </div>

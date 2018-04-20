@@ -20,7 +20,8 @@ export class Image extends React.Component {
 
         props.className = classNames(
             { 'w-100': this.props.baseOn === 'width' },
-            { 'h-100': this.props.baseOn === 'height' }
+            { 'h-100': this.props.baseOn === 'height' },
+            { 'h-100 w-100': this.props.baseOn === 'both' }
         )
 
         return (

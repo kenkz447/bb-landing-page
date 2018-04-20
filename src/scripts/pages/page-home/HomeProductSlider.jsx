@@ -27,7 +27,7 @@ export function HomeProductSlider(props) {
         <Slider className="home-products-slider" {...sliderSetting}>
             {products.map((product) => {
                 return (
-                    <ImageWrapper>
+                    <ImageWrapper key={product.name}>
                         <Image src={product.image} />
                     </ImageWrapper>
                 )
