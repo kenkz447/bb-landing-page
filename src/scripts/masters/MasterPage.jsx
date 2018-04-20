@@ -18,10 +18,10 @@ function MasterHeader(props) {
                         <div className="master-page-header-nav">
                             <ul className="master-page-header-nav-menu">
                                 <li className="master-page-header-nav-menu-item">
-                                    <Link className="master-page-header-nav-menu-item-link" to="/">Trang chủ</Link>
+                                    <Link className="master-page-header-nav-menu-item-link" to="https://www.curator9102.vn/">Trang chủ</Link>
                                 </li>
                                 <li className="master-page-header-nav-menu-item">
-                                    <Link className="master-page-header-nav-menu-item-link" to="/vi_VN/page/contactus">Liên hệ</Link>
+                                    <Link className="master-page-header-nav-menu-item-link" to="https://www.curator9102.vn/vi_VN/page/contactus">Liên hệ</Link>
                                 </li>
                             </ul>
                         </div>
