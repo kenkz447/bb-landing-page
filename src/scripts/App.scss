@@ -4,11 +4,23 @@
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/grid";
+body {
+    font-family: 'Roboto';
+}
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    transition: all .2s ease;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
 }
 
 .app {

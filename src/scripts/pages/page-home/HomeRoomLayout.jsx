@@ -21,11 +21,11 @@ export function HomeRoomLayout(props) {
                                 return (
                                     <li className="home-room-layout-products-product">
                                         <div className="home-room-layout-products-product-index">
-                                            {index}
+                                            {index + 1}
                                         </div>
                                         <div className="home-room-layout-products-product-icon">
                                             <ImageWrapper>
-                                                <Image src={product.icon} />
+                                                <Image src={product.icon}/>
                                             </ImageWrapper>
                                         </div>
                                         <div className="home-room-layout-products-product-name">

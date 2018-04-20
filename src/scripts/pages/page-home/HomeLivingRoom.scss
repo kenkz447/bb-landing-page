@@ -1,15 +1,158 @@
 .home-livingroom {
     &-banner {
-        margin-bottom: 30px;
-        &-right, &-left {
+        margin-bottom: 60px;
+        &-right,
+        &-left {
             height: 100%;
+        }
+        &-left {
+            position: relative;
+            &-info {
+                padding: 30px;
+                &-label {
+                    font-size: 35px;
+                    text-transform: uppercase;
+                }
+                &-collectionname {
+                    font-size: 70px;
+                    text-transform: uppercase;
+                    line-height: 1em;
+                    margin-bottom: 30px;
+                }
+                &-description {
+                    font-weight: 14px;
+                    line-height: 1.6em;
+                    text-align: justify;
+                }
+                &-viewmorebtn {
+                    font-size: 13px;
+                    color: #FFF;
+                    background: black;
+                    padding: 10px 20px;
+                    font-weight: bold;
+                    display: block;
+                    &:hover {
+                        background: lighten($color: #000000, $amount: 10);
+                        color: darken($color: #fff, $amount: 10)
+                    }
+                }
+            }
+        }
+        &-right {
+            position: relative;
+            &-info {
+                top: 75%;
+                left: 50%;
+                transform: translateY(-75%) translateX(-50%);
+                width: 100%;
+                position: absolute;
+                text-align: center;
+                &-label {
+                    font-size: 25px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                &-description {
+                    font-weight: 14px;
+                    line-height: 1.6em;
+                    margin: 0 auto;
+                    max-width: 250px;
+                    color: #515151;
+                }
+            }
         }
     }
     &-product {
         margin-bottom: 40px;
+        &-title {
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
     }
-    &-layout {
-        padding: 30px 0;
-        background: grey;
+}
+
+@media screen and (min-width: 1024px) {
+    .home-livingroom {
+        &-banner {
+            margin-bottom: 60px;
+            &-right,
+            &-left {
+                height: 100%;
+            }
+            &-left {
+                position: relative;
+                &-info {
+                    position: absolute;
+                    right: 100px;
+                    top: 100px;
+                    max-width: 200px;
+                    text-align: right;
+                    padding: 0;
+                    &-label {
+                        font-size: 35px;
+                        text-transform: uppercase;
+                    }
+                    &-collectionname {
+                        font-size: 70px;
+                        text-transform: uppercase;
+                        line-height: 1em;
+                        margin-bottom: 30px;
+                    }
+                    &-description {
+                        font-weight: 14px;
+                        line-height: 1.6em;
+                        text-align: justify;
+                    }
+                    &-viewmorebtn {
+                        font-size: 13px;
+                        color: #FFF;
+                        background: black;
+                        padding: 10px 20px;
+                        font-weight: bold;
+                        display: block;
+                        &:hover {
+                            background: lighten($color: #000000, $amount: 10);
+                            color: darken($color: #fff, $amount: 10)
+                        }
+                    }
+                }
+            }
+            &-right {
+                position: relative;
+                &-info {
+                    top: 75%;
+                    left: 50%;
+                    transform: translateY(-75%) translateX(-50%);
+                    width: 100%;
+                    position: absolute;
+                    text-align: center;
+                    &-label {
+                        font-size: 25px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    &-description {
+                        font-weight: 14px;
+                        line-height: 1.6em;
+                        margin: 0 auto;
+                        max-width: 250px;
+                        color: #515151;
+                    }
+                }
+            }
+        }
+        &-product {
+            margin-bottom: 40px;
+            &-title {
+                text-transform: uppercase;
+                font-size: 26px;
+                margin-left: 5px;
+                margin-bottom: 20px;
+                text-align: left;
+            }
+        }
     }
 }
