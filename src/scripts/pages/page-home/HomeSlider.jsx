@@ -35,7 +35,7 @@ export function HomeSlider(props) {
                         <p className="home-slider-slide-details-description">
                             Linguistics. a unit of connected speech or writing, especially composed of more than one sentence, that forms a cohesive whole.
                         </p>
-                        <a href="https://www.curator9102.vn/shop/category/collections-bb-11" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
+                        <a href="https://www.curator9102.vn/shop/category/collections-bb-28" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
                     </div>
                 </div>
                 <Image src="/images/livingroom/slide.jpg" alt="Living room" />
@@ -48,7 +48,7 @@ export function HomeSlider(props) {
                         <p className="home-slider-slide-details-description">
                             Linguistics. a unit of connected speech or writing, especially composed of more than one sentence, that forms a cohesive whole.
                         </p>
-                        <a href="https://www.curator9102.vn/shop/category/collections-bb-11" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
+                        <a href="https://www.curator9102.vn/shop/category/collections-bb-28" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
                     </div>
                 </div>
                 <Image src="/images/dinnerroom/slide.jpg" alt="Living room" />
@@ -61,7 +61,7 @@ export function HomeSlider(props) {
                         <p className="home-slider-slide-details-description">
                             Linguistics. a unit of connected speech or writing, especially composed of more than one sentence, that forms a cohesive whole.
                     </p>
-                        <a href="https://www.curator9102.vn/shop/category/collections-bb-11" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
+                        <a href="https://www.curator9102.vn/shop/category/collections-bb-28" className="home-slider-slide-details-viewmorebtn">Xem Thêm</a>
                     </div>
                 </div>
                 <Image src="/images/bedroom/slide.jpg" alt="Living room" />

@@ -30,7 +30,7 @@ export class HomeDinnerRoom extends React.Component {
                                     <label className="home-dinnerroom-banner-left-info-label">BỘ SƯU TẬP</label>
                                     <h1 className="home-dinnerroom-banner-left-info-collectionname">BB<br />2018</h1>
                                     <p className="home-dinnerroom-banner-left-info-description">Là sự ngẫu hứng đầy bất ngờ, có người ví những sản phẩm trong bộ sưu tập BB như những cậu nhóc lập dị, nhiều cá tính nhưng lại toát lên vẻ thanh thoát riêng.</p>
-                                    <a className="home-dinnerroom-banner-left-info-viewmorebtn" href="https://www.curator9102.vn/shop/category/collections-bb-11">Xem thêm</a>
+                                    <a className="home-dinnerroom-banner-left-info-viewmorebtn" href="https://www.curator9102.vn/shop/category/collections-bb-28">Xem thêm</a>
                                 </div>
                             </ImageWrapper>
                         </div>
