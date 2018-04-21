@@ -12,6 +12,7 @@
         &-prev,
         &-next {
             z-index: 1;
+            transform: scale(2);
         }
         &-prev {
             left: 10px;
@@ -86,6 +87,81 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .home-slider {
+        margin-bottom: 30px;
+        .slick {
+            &-dots {
+                bottom: 20px;
+                li {
+                    button::before {
+                        font-size: 20px;
+                    }
+                }
+            }
+            &-prev,
+            &-next {
+                z-index: 1;
+            }
+            &-prev {
+                left: 25px;
+                &::before {
+                    color: #fff;
+                }
+            }
+            &-next {
+                right: 25px;
+                &::before {
+                    color: #fff;
+                }
+            }
+        }
+        .container {
+            height: 0;
+        }
+        &-slide {
+            display: block;
+            &-details {
+                position: relative;
+                top: 80px;
+                padding: 0 30px;
+                &-lighttext,
+                &-heavytext {
+                    font-size: 32px;
+                    text-transform: uppercase;
+                }
+                &-heavytext {
+                    font-weight: bold;
+                }
+                &-description {
+                    font-size: 14px;
+                    color: #515151;
+                    line-height: 2em;
+                    max-width: 500px;
+                }
+                &.text-right & {
+                    &-description {
+                        max-width: auto;
+                        margin-left: calc(100% - 500px);
+                    }
+                }
+                &-viewmorebtn {
+                    font-size: 13px;
+                    color: #FFF;
+                    background: black;
+                    padding: 10px 20px;
+                    font-weight: bold;
+                    display: inline-block;
+                    &:hover {
+                        background: lighten($color: #000000, $amount: 10);
+                        color: darken($color: #fff, $amount: 10)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) {
     .home-slider {
         margin-bottom: 30px;
         .slick {
