@@ -9,11 +9,11 @@ import { HomeRoomLayout } from './HomeRoomLayout'
 
 export class HomeLivingRoom extends React.Component {
     products = [
-        { image: '/images/livingroom/sofa.jpg', icon: "/images/livingroom/icon-sofa.png", name: 'Sofa' },
-        { image: '/images/livingroom/armchair.jpg', icon: "/images/livingroom/icon-armchair.png", name: 'Armchair' },
-        { image: '/images/livingroom/side-table.jpg', icon: "/images/livingroom/icon-side-table.png", name: 'Side table' },
-        { image: '/images/livingroom/coffee-table.jpg', icon: "/images/livingroom/icon-coffee-table.png", name: 'Coffee table' },
-        { image: '/images/livingroom/tv-cabinet.jpg', icon: "/images/livingroom/icon-tv-cabinet.png", name: 'TV cabinet' },
+        { image: '/images/livingroom/sofa.jpg', icon: "/images/livingroom/icon-sofa.png", name: 'Ghế sofa' },
+        { image: '/images/livingroom/armchair.jpg', icon: "/images/livingroom/icon-armchair.png", name: 'Ghế thư giãn' },
+        { image: '/images/livingroom/side-table.jpg', icon: "/images/livingroom/icon-side-table.png", name: 'Bàn cạnh' },
+        { image: '/images/livingroom/coffee-table.jpg', icon: "/images/livingroom/icon-coffee-table.png", name: 'Bàn cafe' },
+        { image: '/images/livingroom/tv-cabinet.jpg', icon: "/images/livingroom/icon-tv-cabinet.png", name: 'Tủ TV' },
     ]
     gifts = [
         { image: '/images/livingroom/gift-01.jpg', name: 'gift-01' },
@@ -45,7 +45,6 @@ export class HomeLivingRoom extends React.Component {
                                 <Image baseOn="height" src="/images/livingroom/banner-right.jpg" />
                                 <div className="home-livingroom-banner-right-info">
                                     <label className="home-livingroom-banner-right-info-label">THE STRIKE ARMCHAIR</label>
-                                    <p className="home-livingroom-banner-right-info-description">Linguistics. a unit of connected speech or writing, especially.</p>
                                 </div>
                             </ImageWrapper>
                         </div>
@@ -60,7 +59,7 @@ export class HomeLivingRoom extends React.Component {
                 <div className="home-livingroom-layout">
                     <HomeRoomLayout
                         layoutImageSrc="/images/livingroom/layout.png"
-                        title="Sơ đồ phòng khách"
+                        title="Thành phần"
                         products={this.products}
                     />
                 </div>

@@ -9,10 +9,10 @@ import { HomeRoomLayout } from './HomeRoomLayout'
 
 export class HomeDinnerRoom extends React.Component {
     products = [
-        { image: '/images/dinnerroom/furniture-bench.jpg', icon: "/images/dinnerroom/icon-bench.png", name: 'Bench' },
-        { image: '/images/dinnerroom/furniture-dinner-chair.jpg', icon: "/images/dinnerroom/icon-dinner-chair.png", name: 'Danner chair' },
-        { image: '/images/dinnerroom/furniture-dinner-table.jpg', icon: "/images/dinnerroom/icon-dinner-table.png", name: 'Danner table' },
-        { image: '/images/dinnerroom/furniture-side-table.jpg', icon: "/images/dinnerroom/icon-side-table.png", name: 'Side table' },
+        { image: '/images/dinnerroom/furniture-bench.jpg', icon: "/images/dinnerroom/icon-bench.png", name: 'Ghế băng' },
+        { image: '/images/dinnerroom/furniture-dinner-chair.jpg', icon: "/images/dinnerroom/icon-dinner-chair.png", name: 'Ghế ăn' },
+        { image: '/images/dinnerroom/furniture-dinner-table.jpg', icon: "/images/dinnerroom/icon-dinner-table.png", name: 'bàn ăn' },
+        { image: '/images/dinnerroom/furniture-side-table.jpg', icon: "/images/dinnerroom/icon-side-table.png", name: 'Để nồi cơm điện' },
     ]
     gifts = [
         { image: '/images/dinnerroom/gift-01.jpg', name: 'gift-01' },
@@ -39,7 +39,6 @@ export class HomeDinnerRoom extends React.Component {
                                 <Image baseOn="height" src="/images/dinnerroom/banner-right.jpg" />
                                 <div className="home-dinnerroom-banner-right-info">
                                     <label className="home-dinnerroom-banner-right-info-label">THE PITCHER CHAIR</label>
-                                    <p className="home-dinnerroom-banner-right-info-description">Linguistics. a unit of connected speech or writing, especially.</p>
                                 </div>
                             </ImageWrapper>
                         </div>
@@ -54,7 +53,7 @@ export class HomeDinnerRoom extends React.Component {
                 <div className="home-dinnerroom-layout">
                     <HomeRoomLayout
                         layoutImageSrc="/images/dinnerroom/layout.png"
-                        title="Sơ đồ phòng ăn"
+                        title="Thành phần"
                         products={this.products}
                     />
                 </div>

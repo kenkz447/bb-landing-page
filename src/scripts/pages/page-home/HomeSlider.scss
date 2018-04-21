@@ -12,7 +12,8 @@
         &-prev,
         &-next {
             z-index: 1;
-            transform: scale(2);
+            transform: scale(1.5);
+            top: 65%;
         }
         &-prev {
             left: 10px;
@@ -57,6 +58,7 @@
                 }
             }
             &-viewmorebtn {
+                margin-top: 10px;
                 font-size: 13px;
                 color: #FFF;
                 background: black;
@@ -75,7 +77,14 @@
 @media screen and (min-width: 768px) {
     .home-slider {
         &-slide {
+            .container {
+                height: 0;
+            }
+            display: block;
             &-details {
+                position: relative;
+                top: 50px;
+                padding: 0 30px;
                 &.text-right & {
                     &-description {
                         margin-left: calc(100% - 500px);
@@ -101,6 +110,8 @@
             &-prev,
             &-next {
                 z-index: 1;
+                transform: scale(2);
+                top: 50%;
             }
             &-prev {
                 left: 25px;
@@ -115,11 +126,7 @@
                 }
             }
         }
-        .container {
-            height: 0;
-        }
         &-slide {
-            display: block;
             &-details {
                 position: relative;
                 top: 80px;
@@ -197,7 +204,7 @@
             display: block;
             &-details {
                 position: relative;
-                top: 100px;
+                top: 200px;
                 padding: 0;
                 &-lighttext,
                 &-heavytext {

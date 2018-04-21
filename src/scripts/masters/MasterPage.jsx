@@ -40,7 +40,6 @@ export function MasterPage(props) {
             {props.children}
             <div className="master-page-footer">
                 <div className="master-page-footer-social">
-                    <a href="https://youtube.com/curator9102"><img src="/images/icon-youtube.png" alt="youtute" /></a>
                     <a href="https://facebook.com/curator9102"><img src="/images/icon-facebook.png" alt="facebook" /></a>
                     <a href="https://instagram.com/curator9102"><img src="/images/icon-instagram.png" alt="instagram" /></a>
                     <a href="https://pinterest.com/curator9102"><img src="/images/icon-pinterest.png" alt="pinterest" /></a>

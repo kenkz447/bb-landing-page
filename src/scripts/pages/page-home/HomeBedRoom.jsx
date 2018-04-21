@@ -9,10 +9,10 @@ import { HomeRoomLayout } from './HomeRoomLayout'
 
 export class HomeBedRoom extends React.Component {
     products = [
-        { image: '/images/bedroom/furniture-bed.jpg', icon: "/images/bedroom/icon-bed.png", name: 'Bed' },
-        { image: '/images/bedroom/furniture-makeup-chair.jpg', icon: "/images/bedroom/icon-makeup-chair.png", name: 'Makeup chair' },
-        { image: '/images/bedroom/furniture-makeup-table.jpg', icon: "/images/bedroom/icon-makeup-table.png", name: 'Makeup table' },
-        { image: '/images/bedroom/furniture-side-table.jpg', icon: "/images/bedroom/icon-side-table.png", name: 'Side table' }
+        { image: '/images/bedroom/furniture-bed.jpg', icon: "/images/bedroom/icon-bed.png", name: 'Giường ngủ' },
+        { image: '/images/bedroom/furniture-makeup-chair.jpg', icon: "/images/bedroom/icon-makeup-chair.png", name: 'Ghế trang điểm' },
+        { image: '/images/bedroom/furniture-makeup-table.jpg', icon: "/images/bedroom/icon-makeup-table.png", name: 'Bàn trang điểm' },
+        { image: '/images/bedroom/furniture-side-table.jpg', icon: "/images/bedroom/icon-side-table.png", name: 'Tủ đầu giường' }
     ]
     gifts = [
         { image: '/images/bedroom/gift-01.jpg', name: 'gift-01' },
@@ -53,7 +53,7 @@ export class HomeBedRoom extends React.Component {
                 <div className="home-bedroom-layout">
                     <HomeRoomLayout
                         layoutImageSrc="/images/bedroom/layout.png"
-                        title="Sơ đồ phòng ngủ"
+                        title="Thành phần"
                         products={this.products}
                     />
                 </div>
