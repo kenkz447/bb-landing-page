@@ -1,7 +1,6 @@
 import './MasterPage.scss'
 
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { ImageWrapper, Image } from '../controls'
 
 function MasterHeader(props) {
@@ -18,10 +17,10 @@ function MasterHeader(props) {
                         <div className="master-page-header-nav">
                             <ul className="master-page-header-nav-menu">
                                 <li className="master-page-header-nav-menu-item">
-                                    <Link className="master-page-header-nav-menu-item-link" to="https://www.curator9102.vn/">Trang chủ</Link>
+                                    <a className="master-page-header-nav-menu-item-link" href="https://www.curator9102.vn/">Trang chủ</a>
                                 </li>
                                 <li className="master-page-header-nav-menu-item">
-                                    <Link className="master-page-header-nav-menu-item-link" to="https://www.curator9102.vn/vi_VN/page/contactus">Liên hệ</Link>
+                                    <a className="master-page-header-nav-menu-item-link" href="https://www.curator9102.vn/vi_VN/page/contactus">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
